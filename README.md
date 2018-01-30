@@ -28,6 +28,12 @@ the guests 8080 port via the following vagrant cli:
 
     vagrant port
 
+Here's how it looks like in action
+----------------------------------
+
+[![asciicast](https://asciinema.org/a/430eCRoh4ZIdCfVD73of1sERQ.png)](https://asciinema.org/a/430eCRoh4ZIdCfVD73of1sERQ)
+
+
 F.A.Q.
 ------
 
