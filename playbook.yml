@@ -1,0 +1,35 @@
+- name: Setup Jenkins Master
+  hosts: jenkins_master
+  roles:
+    - role: geerlingguy.jenkins
+      become: true
+      jenkins_plugins:
+        - 'greenballs'
+        - 'blueocean'
+        - 'nested-view'
+        - 'job-dsl'
+        - 'jobConfigHistory'
+        - 'credentials'
+        - 'ssh-credentials'
+        - 'credentials-binding'
+        - 'ssh-agent'
+        - 'git'
+        - 'gradle'
+        - 'maven-plugin'
+        - 'cloudbees-folder'
+        - 'workflow-cps-global-lib'
+        - 'config-file-provider'
+        - 'scm-api'
+        - 'mercurial'
+        - 'cloudbees-bitbucket-branch-source'
+        - 'workflow-aggregator'
+        - 'sonar'
+        - 'pipeline-utility-steps'
+        - 'ws-cleanup'
+        - 'pipeline-maven'
+        - 'greenballs'
+        - 'http_request'
+        - 'matrix-auth'
+        - 'embeddable-build-status'
+        - 'lockable-resources'
+        - 'discard-old-build'

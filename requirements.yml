@@ -1,0 +1,4 @@
+---
+# from Ansible galaxy
+- src: geerlingguy.jenkins
+
