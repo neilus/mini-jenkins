@@ -28,5 +28,11 @@ the guests 8080 port via the following vagrant cli:
 
     vagrant port
 
+F.A.Q.
+------
+
+- Q: It has timeouts during the jenkins plugin installations...
+ A: (sh)It happens, the jenkins ci mirror is not so reliable, try again via
+ the `vagrant provision` command until it succeeds.
 
 Happy hacking!
